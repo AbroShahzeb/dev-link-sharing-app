@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading-m {
+    @apply text-[32px] leading-[150%] font-bold;
+  }
+  .heading-sm {
+    @apply text-[16px] leading-[150%] font-semibold;
+  }
+
+  .body-m {
+    @apply text-[16px] leading-[150%];
+  }
+
+  .body-sm {
+    @apply text-[12px] leading-[150%];
+  }
+}
+
+body {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+/* CUSTOM DROPDOWN STYLING START  */
+
+.custom-dropdown ul {
+  border-radius: 8px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 12px 16px !important;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  /* shadow */
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.1);
+}
+
+.custom-dropdown ul li {
+  font-size: 14px !important;
+  line-height: 150% !important;
+  color: #201f24 !important;
+  font-family: "Public Sans" !important;
+  border-radius: 0 !important;
+  padding: 12px 0 !important;
+}
+
+.custom-dropdown ul li:not(:last-child) {
+  border-bottom: 1px solid #f2f2f2 !important;
+}
+
+/* text-preset-4 placeholder:text-preset-4 placeholder:text-beige-500 hover:text-grey-900 text-grey-900 py-150 px-250 focus:outline-none focus:border-grey-900 -ml-10 rounded-md border border-beige-500 w-full */
+.custom-dropdown-button.ant-btn {
+  font-size: 16px !important;
+  line-height: 150% !important;
+  color: #333 !important;
+  padding: 12px 16px !important;
+  border-radius: 8px !important;
+  /* width: 100% !important; */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  font-family: "Public Sans" !important;
+  box-shadow: none !important;
+}
+
+/* .custom-dropdown-button.ant-btn:focus {
+  outline: none !important;
+  border: 1px solid #201f24 !important;
+} */
+/* CUSTOM DROPDOWN STYLING END */
