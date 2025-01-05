@@ -4,7 +4,7 @@ import { IconLinkedin } from "../assets/svgComponents/IconLinkedin";
 import { IconYoutube } from "../assets/svgComponents/IconYoutube";
 import { IconFacebook } from "../assets/svgComponents/IconFacebook";
 import { IconTwitch } from "../assets/svgComponents/IconTwitch";
-import { IconDevTo } from "../assets/svgComponents/IconDevTo";
+// import { IconDevTo } from "../assets/svgComponents/IconDevTo";
 import { IconCodewars } from "../assets/svgComponents/IconCodewars";
 import { IconCodepen } from "../assets/svgComponents/IconCodepen";
 import { IconFreeCodeCamp } from "../assets/svgComponents/IconFreecodecamp";
@@ -69,13 +69,13 @@ export const LinkToCardMapper = ({ link }) => {
         icon: <IconTwitch className="w-5 h-5 items-center justify-center" />,
         background: "#EE3FC8",
       },
-      {
-        id: 7,
-        label: "Dev.to",
-        value: "devto",
-        icon: <IconDevTo className="w-5 h-5 items-center justify-center" />,
-        background: "#333",
-      },
+      //   {
+      //     id: 7,
+      //     label: "Dev.to",
+      //     value: "devto",
+      //     icon: <IconDevTo className="w-5 h-5 items-center justify-center" />,
+      //     background: "#333",
+      //   },
       {
         id: 8,
         label: "Codewars",
