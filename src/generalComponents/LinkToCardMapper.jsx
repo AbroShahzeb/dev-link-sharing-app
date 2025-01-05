@@ -4,7 +4,7 @@ import { IconLinkedin } from "../assets/svgComponents/IconLinkedin";
 import { IconYoutube } from "../assets/svgComponents/IconYoutube";
 import { IconFacebook } from "../assets/svgComponents/IconFacebook";
 import { IconTwitch } from "../assets/svgComponents/IconTwitch";
-// import { IconDevTo } from "../assets/svgComponents/IconDevTo";
+import { IconDevTo } from "../assets/svgComponents/IconDevTo";
 import { IconCodewars } from "../assets/svgComponents/IconCodewars";
 import { IconCodepen } from "../assets/svgComponents/IconCodepen";
 import { IconFreeCodeCamp } from "../assets/svgComponents/IconFreecodecamp";
