@@ -69,13 +69,13 @@ export const LinkToCardMapper = ({ link }) => {
         icon: <IconTwitch className="w-5 h-5 items-center justify-center" />,
         background: "#EE3FC8",
       },
-      //   {
-      //     id: 7,
-      //     label: "Dev.to",
-      //     value: "devto",
-      //     icon: <IconDevTo className="w-5 h-5 items-center justify-center" />,
-      //     background: "#333",
-      //   },
+      {
+        id: 7,
+        label: "Dev.to",
+        value: "devto",
+        icon: <IconDevTo className="w-5 h-5 items-center justify-center" />,
+        background: "#333",
+      },
       {
         id: 8,
         label: "Codewars",
